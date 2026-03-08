@@ -1,0 +1,43 @@
+INSERT INTO Staff (Username, Password) VALUES
+('admin01', 'pass@123'),
+('asim.rashid', 'securePass!'),
+('fatima.naz', 'bloodbank@2024'),
+('kashif88', 'k@sh1fPwd'),
+('nimra.staff', 'nimraSecure'),
+('hammad.admin', 'h@mm@dPwd'),
+('sana.staff', 'sana_2025'),
+('ali.tech', 'aliPassword123'),
+('sumaira.hr', 'sumi@Hr123'),
+('jawad.it', 'j@wad!itpass');
+
+
+INSERT INTO Recipient (FullName, Age, Gender, BloodGroup, Hospital, RequestDate) VALUES
+('Sara Iqbal', 36, 'Female', 'A+', 'Shifa International Hospital, Islamabad', '2025-05-15'),
+('Hamza Shahid', 50, 'Male', 'B+', 'Aga Khan University Hospital, Karachi', '2025-05-12'),
+('Maria Zubair', 27, 'Female', 'O+', 'Mayo Hospital, Lahore', '2025-05-18'),
+('Zeeshan Akhtar', 60, 'Male', 'AB+', 'Punjab Institute of Cardiology, Lahore', '2025-05-10'),
+('Areeba Khan', 22, 'Female', 'O-', 'PIMS Hospital, Islamabad', '2025-05-17'),
+('Rashid Mehmood', 45, 'Male', 'B-', 'Civil Hospital, Karachi', '2025-05-14'),
+('Hira Rauf', 33, 'Female', 'A-', 'Liaquat National Hospital, Karachi', '2025-05-19'),
+('Kashif Ali', 38, 'Male', 'AB-', 'Services Hospital, Lahore', '2025-05-16'),
+('Asma Farooq', 41, 'Female', 'A+', 'Jinnah Hospital, Lahore', '2025-05-11'),
+('Adnan Siddiqui', 55, 'Male', 'B+', 'Combined Military Hospital, Rawalpindi', '2025-05-13');
+
+
+INSERT INTO Donor (FullName, Age, Gender, BloodGroup, Contact) VALUES
+('Ali Raza', 28, 'Male', 'A+', '03001234567'),
+('Fatima Noor', 32, 'Female', 'B+', '03111234567'),
+('Ahmed Khan', 45, 'Male', 'O+', '03211234567'),
+('Sana Tariq', 22, 'Female', 'A-', '03331234567'),
+('Zain Ali', 35, 'Male', 'B-', '03441234567'),
+('Mehwish Javed', 29, 'Female', 'AB+', '03551234567'),
+('Usman Ghani', 40, 'Male', 'O-', '03661234567'),
+('Hina Qureshi', 26, 'Female', 'AB-', '03771234567'),
+('Bilal Saeed', 31, 'Male', 'A+', '03881234567',),
+('Nida Salman', 24, 'Female', 'B+', '03991234567');
+
+
+INSERT INTO BloodGroup (BloodGroup) VALUES
+('A+'), ('A-'), ('B+'), ('B-'),
+('AB+'), ('AB-'), ('O+'), ('O-');
+
